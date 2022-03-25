@@ -15,6 +15,6 @@ export class Card {
   ExpirationDate: string;
 
   @Prop()
-  CW: string;
+  CVV: string;
 }
 export const CardShema = SchemaFactory.createForClass(Card);
